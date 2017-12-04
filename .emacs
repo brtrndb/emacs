@@ -52,3 +52,6 @@
 
 ;; Scroll line by line.
 (setq scroll-step 1)
+
+;; Remember cursor position, for emacs 25.1 or later
+(save-place-mode 1)
