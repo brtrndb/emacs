@@ -6,11 +6,16 @@ First clone the repository.
 ```
 git clone https://github.com/brtrndb/emacs.git
 ```
-Then copy the config file to your home directory.
-```
-cp .emacs ~/
-```
+Then run the `install.sh` script.
+
+### Description
+- Diplay date and time.
+- Display battery percent.
+- Parenthesis matching.
+- Remove whitespaces at end of lines.
+- ... And more !
+
 Enjoy !
 
 ### Note
-Tested with emacs24.
+Tested with emacs25.
