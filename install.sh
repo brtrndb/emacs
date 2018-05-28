@@ -1,6 +1,8 @@
 #!/bin/bash
+# Bertrand B.
 
-DEST=/home/$USER;
+FILE=.emacs
+TARGET=/home/$USER;
 
-echo "Copying files into $DEST";
-cp -vu .emacs $DEST;
+echo "Copying $FILE into $TARGET";
+cp -vu $FILE $DEST;
