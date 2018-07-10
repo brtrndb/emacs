@@ -5,4 +5,4 @@ FILE=.emacs
 TARGET=/home/$USER;
 
 echo "Copying $FILE into $TARGET";
-cp -vu $FILE $DEST;
+cp -vu $FILE $TARGET;
