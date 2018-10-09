@@ -6,7 +6,7 @@ Simple `.emacs` configuration file.
 
 First, clone the repository.
 
-```
+```sh
 $ git clone https://github.com/brtrndb/emacs.git
 ```
 
@@ -14,7 +14,7 @@ $ git clone https://github.com/brtrndb/emacs.git
 
 Run the script.
 
-```
+```sh
 $ ./install.sh
 ```
 
