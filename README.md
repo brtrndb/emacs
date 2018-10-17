@@ -22,11 +22,11 @@ It will copy the `.emacs` file into your home.
 
 ## Description
 
-* Diplay date and time.
-* Display battery percent.
-* Parenthesis matching.
-* Remove whitespaces at end of lines.
-* ... And more !
+- Diplay date and time.
+- Display battery percent.
+- Parenthesis matching.
+- Remove whitespaces at end of lines.
+- ... And more !
 
 Enjoy !
 
@@ -35,3 +35,5 @@ Enjoy !
 Tested with emacs25.
 
 ## License
+
+See [LICENSE.md](./LICENSE.md).
