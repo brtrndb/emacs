@@ -6,7 +6,7 @@ Simple `.emacs` configuration file.
 
 First, clone the repository.
 
-```sh
+```shell
 $ git clone https://github.com/brtrndb/emacs.git
 ```
 
@@ -14,15 +14,20 @@ $ git clone https://github.com/brtrndb/emacs.git
 
 Run the script.
 
-```sh
-$ ./install.sh
+```shell
+$ ./install.sh -h
+Usage: ./install.sh  { -n | -c | -u | -h }
+Options:
+  -s, --symlink: Install as symbolic link.
+  -c, --copy:    Install as copy.
+  -h, --help:    Display usage.
 ```
 
-It will copy the `.emacs` file into your home.
+It will create a symlink or a copy of `emacs` into `~/.emacs`.
 
 ## Description
 
-- Diplay date and time.
+- Display date and time.
 - Display battery percent.
 - Parenthesis matching.
 - Remove whitespaces at end of lines.
@@ -32,7 +37,15 @@ Enjoy !
 
 ## Note
 
-Tested with emacs25.
+```shell
+$ emacs --version
+GNU Emacs 29.1
+Copyright (C) 2023 Free Software Foundation, Inc.
+GNU Emacs comes with ABSOLUTELY NO WARRANTY.
+You may redistribute copies of GNU Emacs
+under the terms of the GNU General Public License.
+For more information about these matters, see the file named COPYING.
+```
 
 ## License
 
